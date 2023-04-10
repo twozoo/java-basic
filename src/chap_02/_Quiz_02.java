@@ -18,12 +18,12 @@ public class _Quiz_02 {
         int child2 = 121;
         int limitTall = 120;
 
-        String result = (limitTall <= child1) ? "키가 " + child1+"cm 므로 탑승이 가능 합니다." : "키가 " + child1+"cm 므로 탑승이 불가능 합니다.";
-        System.out.println(result);
+        String result = (limitTall <= child1) ? "cm 므로 탑승이 가능 합니다." : "cm 므로 탑승이 불가능 합니다.";
+        System.out.println("키가 " + child1+ result);
 
-        result = (limitTall <= child2) ? "키가 " + child2+"cm 므로 탑승이 가능 합니다." : "키가 " + child2+"cm 므로 탑승이 불가능 합니다.";
+        result = (limitTall <= child2) ? "cm 므로 탑승이 가능 합니다." : "cm 므로 탑승이 불가능 합니다.";
 
-        System.out.println(result);
+        System.out.println("키가 " + child2+result);
 
 
 
