@@ -30,7 +30,7 @@ public class _Quiz_05 {
         System.out.println("-------------------------");
         defaultSize = 250;
         for (int i = 0; i < shoesSize.length; i++) {
-            shoesSize[i] = defaultSize +(5*i);
+            shoesSize[i] = defaultSize +(increaseSize*i);
 
         }
         //해답은 요렇게9
